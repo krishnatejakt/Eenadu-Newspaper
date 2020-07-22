@@ -3,9 +3,9 @@ A simple python script to fetch the eenadu newspaper from the internet and deliv
 
 Before running this script, Create an account in Eenadu Newspaper and type in the account details in the script. (https://epaper.eenadu.net/)
 
-python eenadu_github.py
+#### python eenadu_github.py (to execute after inserting the necessary credentials in the script)
 
 ## Libraries Used:
 
-pyautogui,selenium,smtplib,email,PIL
+pyautogui, selenium, smtplib, email, PIL
 
