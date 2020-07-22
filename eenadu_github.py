@@ -136,8 +136,8 @@ mergedObject.write(paper_name)
 
 
 
-froms = "<from-email>"
-to = "<to-email>"
+froms = "<from-email>" #add from email ID.
+to = "<to-email>" #add to email ID.
 
 data = MIMEMultipart() 
 data['From'] = froms
@@ -155,7 +155,7 @@ p.add_header('Content-Disposition', "attachment; filename= %s" % filename)
 data.attach(p)
 s = smtplib.SMTP('smtp.gmail.com', 587)
 s.starttls()
-s.login(froms, "<your-password>")
+s.login(froms, "<your-password>") #add your email password
 text = data.as_string()
 s.sendmail(froms, to, text)
 s.quit()
