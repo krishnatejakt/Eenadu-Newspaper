@@ -9,3 +9,4 @@ Before running this script, Create an account in Eenadu Newspaper and type in th
 
 pyautogui, selenium, smtplib, email, PIL
 
+Run the script and dont perform any actions on the system until the script executes!
